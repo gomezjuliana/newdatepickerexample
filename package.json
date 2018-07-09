@@ -1,0 +1,20 @@
+{
+  "name": "newdatepickerexample",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "live-server dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juliana Gomez <juliana@gomezjuliana.com> (http://gomezjuliana.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "1.2.0",
+    "sweetly-hot-cartoon": "1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "4.15.1",
+    "webpack-cli": "3.0.8"
+  }
+}
