@@ -1,0 +1,38 @@
+.datepicker--active {
+  border: solid 5px #000;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 40px 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.calendar {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-column: 1/-1;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.datepicker__month {
+  grid-column: 2 / 7;
+  margin: 0;
+  text-align: center;
+}
+
+.datepicker__weekday {
+  font-size: 8px;
+  text-align: center;
+}
+
+.datepicker__back,
+.datepicker__forward {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.selected {
+  background-color: #47ca4d;
+}

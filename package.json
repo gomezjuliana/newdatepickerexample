@@ -6,17 +6,22 @@
   "scripts": {
     "start": "live-server dist",
     "build": "babel --copy-files --out-dir dist src",
+    "postbuild": "browserify dist/index.js -o dist/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juliana Gomez <juliana@gomezjuliana.com> (http://gomezjuliana.com/)",
   "license": "MIT",
   "dependencies": {
     "live-server": "1.2.0",
-    "sweetly-hot-cartoon": "1.0.3"
+    "starwars-names": "1.6.0",
+    "sweetly-hot-cartoon": "2.0.4"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
+    "babel-loader": "7.1.5",
     "babel-preset-env": "1.7.0",
+    "browserify": "16.2.2",
+    "css-loader": "1.0.0",
     "webpack": "4.15.1",
     "webpack-cli": "3.0.8"
   },
